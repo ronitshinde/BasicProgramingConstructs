@@ -10,17 +10,21 @@ namespace ProgramingConstructs
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1.Equality of two integers");
+            Console.WriteLine("1.Equality of two integers\n2.Check even or odd");
             int option = Convert.ToInt32(Console.ReadLine());
-            switch(option)
+            switch (option)
             {
                 case 1:
                     SelectionAndRepetation constructs = new SelectionAndRepetation();
                     constructs.EqualityOfTwoIntegers();
-                    Console.ReadKey();
+                    break;
+                case 2:
+                    SelectionAndRepetation selection = new SelectionAndRepetation();
+                    selection.CheckEvenOdd();
                     break;
             }
-           
+            Console.ReadKey();
+
         }
     }
 }
