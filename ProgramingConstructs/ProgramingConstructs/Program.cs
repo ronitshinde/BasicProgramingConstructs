@@ -19,7 +19,7 @@ namespace ProgramingConstructs
                     constructs.EqualityOfTwoIntegers();
                     break;
                 case 2:
-                    SelectionAndRepetation selection = new SelectionAndRepetation();
+                    EvenOrOdd selection = new EvenOrOdd();
                     selection.CheckEvenOdd();
                     break;
             }

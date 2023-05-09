@@ -17,20 +17,10 @@ namespace ProgramingConstructs
             int firstInteger = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter the second integer");
             int secondInteger = Convert.ToInt32(Console.ReadLine());
-            if(firstInteger.Equals(secondInteger))
+            if (firstInteger.Equals(secondInteger))
                 Console.WriteLine("Both integers are equal");
             else
                 Console.WriteLine("Both integers are unequal");
-        }
-        public void CheckEvenOdd()
-        {
-            //UC2-Write a C# Sharp program to check whether a given number is even or odd.
-            Console.WriteLine("Enter the number");
-            int number = Convert.ToInt32(Console.ReadLine());
-            if (number % 2 == 0)
-                Console.WriteLine($"The given number '{number}' is even ");
-            else
-                Console.WriteLine($"The given number '{number}' is odd ");
         }
     }
 }
